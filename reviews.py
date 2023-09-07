@@ -27,7 +27,7 @@ import pandas as pd
 import zipfile
 
 
-df = pd.read_csv('winemag-data-130k-v2.csv.zip', index_col=0)
+df = pd.read_csv('data/winemag-data-130k-v2.csv.zip', index_col=0)
 
 wine_df = df
 wine_df['count'] = 1
